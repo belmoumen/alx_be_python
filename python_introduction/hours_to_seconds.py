@@ -1,5 +1,4 @@
 hours = 2
-sec_hour = 3600
-seconds = hours * sec_hour
+seconds = hours * 3600
 
 print(hours, "hours(s) is,", seconds, "seconds.")
