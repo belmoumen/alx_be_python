@@ -1,4 +1,4 @@
-current_age=int(input("how old are you "))
+current_age=int(input("how old are you? "))
 
 age_in_2025 = current_age + 27
 
