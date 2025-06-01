@@ -1,6 +1,7 @@
 number = int(input("Enter the size of the pattern: "))
-
-for i in range(number):
-        for j in range(number):
-                print("*", end="")
-        print()
+row = 0
+while row < number:
+	for i in range(number):
+		print("*", end="")
+	print()
+	row += 1
