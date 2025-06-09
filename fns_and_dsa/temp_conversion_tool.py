@@ -6,7 +6,7 @@ def convert_to_celsius(fahrenheit):
 	return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 def convert_to_fahrenheit(celsius):
 	celsius = float(celsius)
-	return (celsius * FAHRENHEIT_TO_CELSIUS_FACTOR) + 32
+	return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 
 def is_float(value):
 	try:
