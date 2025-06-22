@@ -5,7 +5,7 @@ class Book:
 
   def get_info(self):
     return f"Book: {self.title} by {self.author}"
-  
+
 class Ebook(Book):
   def __init__(self, title, author, file_size):
     super().__init__(title, author)
